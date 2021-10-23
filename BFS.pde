@@ -158,6 +158,7 @@ void setup() {
       text(nodes.get(i).stateString(), 30, 30+(v*50));
     }
   }
-  println(nodes.size());
-  println(parentNodeNumber.length);
+  int total = goalIndex+1;
+  fill(0);
+  text("Visited Nodes: "+total,width - 120,height - 20);
 }
