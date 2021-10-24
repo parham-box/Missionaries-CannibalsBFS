@@ -79,7 +79,7 @@ void setup() {
   //BLUE: Previously visited node
   //BLACK: Node with children
   //GRAY: A node on the answer path
-  //GREEN: Goal node
+  //GREEN: Path node
 
   //helpers to show the search tree coordinates
   int v = 1;
@@ -192,7 +192,5 @@ void setup() {
   int total = goalIndex+1;
 
   fill(0);
-  text("Unvisited Nodes: "+(nodes.size()-total), width - 120, height - 40);
-
   text("Visited Nodes: "+total, width - 120, height - 20);
 }
