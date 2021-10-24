@@ -165,7 +165,6 @@ class State {
       if (3-c>=2) {
         nextStates[i] = new State(m, c+2, toggleSide(), this);
         println("Action: 2 cannibals from right to left");
-
         nextStates[i].printState();
         i++;
       }

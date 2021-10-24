@@ -55,6 +55,7 @@ void setup() {
         for (int i = 0; i < nextStates.length; i++) {
           //visit the node
           //add to the end of the array
+          //by adding children of each visited node to the end of the array, by visiting from the start of the array we will have BFS.
           nodes.add(nextStates[i]);
         }
       } else {
